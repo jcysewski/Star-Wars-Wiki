@@ -1,13 +1,228 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="J4u-k0-NQS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Episode4-->
+        <scene sceneID="eUr-H4-fTz">
+            <objects>
+                <viewController id="iW4-aK-PuZ" customClass="Episode4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Sy-xn-nul"/>
+                        <viewControllerLayoutGuide type="bottom" id="R43-c1-yim"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gpO-c3-yPf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Episode4Poster" translatesAutoresizingMaskIntoConstraints="NO" id="E5h-hK-7Pa">
+                                <rect key="frame" x="5" y="72" width="130" height="210"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HPd-Qo-VjJ">
+                                <rect key="frame" x="135" y="64" width="240" height="217"/>
+                                <string key="text">The Imperial Forces, under orders from cruel Darth Vader, hold Princess Leia hostage, in their efforts to quell the rebellion against the Galactic Empire. Luke Skywalker and Han Solo, captain of the Millennium Falcon, work together with the companionable droid duo R2-D2 and C-3PO to rescue the beautiful princess, help the Rebel Alliance, and restore freedom and justice to the Galaxy.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RebelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="XHB-UO-6hs">
+                                <rect key="frame" x="81" y="302" width="60" height="58"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmpireLogo" translatesAutoresizingMaskIntoConstraints="NO" id="YtC-Wz-hSA">
+                                <rect key="frame" x="238" y="302" width="60" height="58"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gga-hX-hXk">
+                                <rect key="frame" x="44" y="390" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7pa-6q-Ho9">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Obi Wan Kenobi- Jedi Master C3PO- Droid R2D2- Droid          Han Solo- Smuggler Chewbacca- Wookie                                Luke Skywalker          Leia Skywalker- Princess of Alderaan</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rebels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvz-00-MZT">
+                                <rect key="frame" x="85" y="361" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Empire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxq-uc-hiu">
+                                <rect key="frame" x="241" y="361" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yzQ-Nv-YjH">
+                                <rect key="frame" x="206" y="390" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Darth Sidious- Sith Lord               Darth Vader- Sith Lord" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WFR-Kl-0hf">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SyN-xH-P6R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1017" y="-254"/>
+        </scene>
+        <!--Episode5-->
+        <scene sceneID="8Tm-XI-4fH">
+            <objects>
+                <viewController id="ett-LZ-b7C" customClass="Episode5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GuP-DC-Auo"/>
+                        <viewControllerLayoutGuide type="bottom" id="2JX-rS-z8T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="F72-nv-t1B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Episode5Poster" translatesAutoresizingMaskIntoConstraints="NO" id="z19-Hw-UkF">
+                                <rect key="frame" x="6" y="72" width="130" height="210"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8kz-HP-63z">
+                                <rect key="frame" x="135" y="64" width="240" height="234"/>
+                                <string key="text">The adventure continues in this Star Wars sequel. Luke Skywalker, Han Solo, Princess Leia and Chewbacca face attack by the Imperial forces and its AT-AT walkers on the ice planet Hoth. While Han and Leia escape in the Millennium Falcon, Luke travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark side of the Force beckons him into the ultimate duel with Darth Vader.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falcon" translatesAutoresizingMaskIntoConstraints="NO" id="I1X-ya-GXf">
+                                <rect key="frame" x="151" y="292" width="73" height="95"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RebelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="usZ-VS-JCG">
+                                <rect key="frame" x="81" y="314" width="60" height="58"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmpireLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Adw-SY-JwI">
+                                <rect key="frame" x="238" y="314" width="60" height="58"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGs-hH-1Vh">
+                                <rect key="frame" x="44" y="402" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T1w-F9-As0">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Obi Wan Kenobi- Jedi Master C3PO- Droid R2D2- Droid          Han Solo- Smuggler Chewbacca- Wookie                                Luke Skywalker          Leia Skywalker- Princess of Alderaan                 Lando Calrissian</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rebels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9a-gL-SyB">
+                                <rect key="frame" x="85" y="373" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Empire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSt-sq-awZ">
+                                <rect key="frame" x="241" y="373" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FKm-FA-cRs">
+                                <rect key="frame" x="206" y="402" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Darth Sidious- Sith Lord               Darth Vader- Sith Lord                         Boba Fett- Bounty Hunter" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cP1-X2-CuI">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hcH-z5-TvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1041.5" y="291.5"/>
+        </scene>
+        <!--Episode6-->
+        <scene sceneID="bBO-AN-8WU">
+            <objects>
+                <viewController id="C7B-Qy-RWJ" customClass="Episode6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WUk-lU-6H8"/>
+                        <viewControllerLayoutGuide type="bottom" id="oE5-Vm-PXi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V4M-MZ-eRG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Episode6Poster" translatesAutoresizingMaskIntoConstraints="NO" id="6yz-3B-7V4">
+                                <rect key="frame" x="6" y="78" width="129" height="201"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jzt-fB-uOD">
+                                <rect key="frame" x="135" y="84" width="240" height="200"/>
+                                <string key="text">Luke Skywalker battles horrible Jabba the Hut and cruel Darth Vader to save his comrades in the Rebel Alliance and triumph over the Galactic Empire. Han Solo and Princess Leia reaffirm their love and team with Chewbacca, Lando Calrissian, the Ewoks and the androids C-3PO and R2-D2 to aid in the disruption of the Dark Side and the defeat of the evil emperor.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RebelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="uvd-uN-b54">
+                                <rect key="frame" x="81" y="302" width="60" height="58"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmpireLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Up4-tE-Wzl">
+                                <rect key="frame" x="238" y="302" width="60" height="58"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iSJ-4C-fov">
+                                <rect key="frame" x="44" y="390" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V6B-nq-yws">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Obi Wan Kenobi- Jedi Master C3PO- Droid R2D2- Droid          Han Solo- Smuggler Chewbacca- Wookie                                Luke Skywalker          Leia Skywalker- Princess of Alderaan                   Lando Calrissian</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rebels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTn-W6-7Aj">
+                                <rect key="frame" x="85" y="361" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Empire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W81-k9-hBL">
+                                <rect key="frame" x="241" y="361" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvf-mU-xI2">
+                                <rect key="frame" x="206" y="390" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="onb-Ks-qr5">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Darth Sidious- Sith Lord               Darth Vader- Sith Lord                          Jabba the Hutt- Gangster               Boba Fett- Bounty Hunter</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Death-Star" translatesAutoresizingMaskIntoConstraints="NO" id="Gn5-AC-D2E">
+                                        <rect key="frame" x="13" y="139" width="98" height="93"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lpk-fN-LVx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1017.5" y="1021.5"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Star_Wars_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +230,518 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5n4-cA-HZb">
+                                <rect key="frame" x="100" y="184" width="217" height="30"/>
+                                <state key="normal" title="Episode I The Phantom Menace"/>
+                                <connections>
+                                    <segue destination="dLz-Vv-FhQ" kind="show" identifier="one" id="NCK-TN-aas"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RZ-z5-qwn">
+                                <rect key="frame" x="109" y="285" width="162" height="30"/>
+                                <state key="normal" title="Episode IV A New Hope"/>
+                                <connections>
+                                    <segue destination="iW4-aK-PuZ" kind="show" identifier="four" id="9yv-4I-1Ay"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWo-uN-bVV">
+                                <rect key="frame" x="88" y="315" width="240" height="30"/>
+                                <state key="normal" title="Episode V The Empire Strikes Back"/>
+                                <connections>
+                                    <segue destination="ett-LZ-b7C" kind="show" identifier="five" id="eoD-f0-MxX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Jo-RQ-Dzc">
+                                <rect key="frame" x="96" y="255" width="208" height="30"/>
+                                <state key="normal" title="Episode III Revenge of the Sith"/>
+                                <connections>
+                                    <segue destination="5el-B5-KhJ" kind="show" identifier="three" id="8xv-QV-Htb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTs-No-hbs">
+                                <rect key="frame" x="96" y="345" width="199" height="30"/>
+                                <state key="normal" title="Episode VI Return of the Jedi"/>
+                                <connections>
+                                    <segue destination="C7B-Qy-RWJ" kind="show" identifier="six" id="VPS-To-L6p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC3-4x-507">
+                                <rect key="frame" x="96" y="222" width="210" height="30"/>
+                                <state key="normal" title="Episode II Attack of the Clones"/>
+                                <connections>
+                                    <segue destination="ojD-4J-bn3" kind="show" identifier="two" id="5HZ-nT-rQ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4t-ok-TD4">
+                                <rect key="frame" x="92" y="378" width="214" height="30"/>
+                                <state key="normal" title="Episode VII The Force Awakens"/>
+                                <connections>
+                                    <segue destination="PYg-vW-TUV" kind="show" identifier="seven" id="sdo-ij-t3w"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Wiki" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcI-Xv-OWa">
+                                <rect key="frame" x="174" y="160" width="33" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.92051021960788248" blue="0.03286585414055776" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEj-Rq-qPM">
+                                <rect key="frame" x="138" y="416" width="133" height="30"/>
+                                <state key="normal" title="Slot Machine Game"/>
+                                <connections>
+                                    <segue destination="Gf1-AE-Ex5" kind="show" identifier="slotMachine" id="Xw1-LI-4uf"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lightsabers-clash" translatesAutoresizingMaskIntoConstraints="NO" id="QfX-UV-YP8">
+                                <rect key="frame" x="75" y="464" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="2g0-pk-MDT"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="BWA-iQ-PLh"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="Hd7-Ea-osp"/>
+                                    <constraint firstAttribute="width" constant="240" id="Q8R-UE-vJh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="StarWarsLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gSG-JM-0c6">
+                                <rect key="frame" x="70" y="48" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cEj-Rq-qPM" firstAttribute="top" secondItem="A4t-ok-TD4" secondAttribute="bottom" constant="8" id="14o-xH-Z61"/>
+                            <constraint firstItem="9RZ-z5-qwn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="34E-oW-O8i"/>
+                            <constraint firstItem="A4t-ok-TD4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6nQ-xI-B0S"/>
+                            <constraint firstItem="cEj-Rq-qPM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DKe-ck-pid"/>
+                            <constraint firstItem="FTs-No-hbs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DhU-F9-Dgl"/>
+                            <constraint firstItem="FC3-4x-507" firstAttribute="top" secondItem="5n4-cA-HZb" secondAttribute="bottom" constant="8" id="Eme-Vr-NeI"/>
+                            <constraint firstItem="3Jo-RQ-Dzc" firstAttribute="top" secondItem="FC3-4x-507" secondAttribute="bottom" constant="8" id="IN3-VU-rWJ"/>
+                            <constraint firstItem="5n4-cA-HZb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ku6-ZX-oag"/>
+                            <constraint firstItem="QfX-UV-YP8" firstAttribute="top" secondItem="cEj-Rq-qPM" secondAttribute="bottom" constant="8" id="MRM-bn-MhU"/>
+                            <constraint firstItem="3Jo-RQ-Dzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O9k-NG-lBk"/>
+                            <constraint firstItem="5n4-cA-HZb" firstAttribute="top" secondItem="gSG-JM-0c6" secondAttribute="bottom" constant="12" id="Yfv-mh-2Pb"/>
+                            <constraint firstItem="5n4-cA-HZb" firstAttribute="top" secondItem="XcI-Xv-OWa" secondAttribute="bottom" constant="8" id="Zyr-cy-KWH"/>
+                            <constraint firstItem="TWo-uN-bVV" firstAttribute="top" secondItem="9RZ-z5-qwn" secondAttribute="bottom" constant="8" id="hlc-TV-oHV"/>
+                            <constraint firstItem="A4t-ok-TD4" firstAttribute="top" secondItem="FTs-No-hbs" secondAttribute="bottom" constant="8" id="hvU-sQ-Djc"/>
+                            <constraint firstItem="TWo-uN-bVV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lCR-f9-V26"/>
+                            <constraint firstItem="FTs-No-hbs" firstAttribute="top" secondItem="TWo-uN-bVV" secondAttribute="bottom" constant="14" id="ogy-kv-Otx"/>
+                            <constraint firstItem="9RZ-z5-qwn" firstAttribute="top" secondItem="3Jo-RQ-Dzc" secondAttribute="bottom" constant="8" id="qhS-Sn-1fb"/>
+                            <constraint firstItem="FC3-4x-507" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ten-Mt-nPa"/>
+                            <constraint firstItem="QfX-UV-YP8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uGU-9J-9Nx"/>
+                            <constraint firstItem="gSG-JM-0c6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="52" id="xCR-oJ-Cxf"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="oR3-Yy-2DZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="82" y="201"/>
+        </scene>
+        <!--Slot Machine-->
+        <scene sceneID="ifI-9u-acj">
+            <objects>
+                <viewController id="Gf1-AE-Ex5" customClass="SlotMachine" customModule="Star_Wars_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rO4-Yo-p0k"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oi8-tz-egO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vqe-Cx-jFv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yaI-YB-FTC">
+                                <rect key="frame" x="20" y="335" width="100" height="100"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falcon" translatesAutoresizingMaskIntoConstraints="NO" id="Qfl-hq-Mti">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nu9-Kk-5Oo">
+                                <rect key="frame" x="164" y="335" width="100" height="100"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falcon" translatesAutoresizingMaskIntoConstraints="NO" id="CNw-l1-bUz">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pbu-Ce-9ok">
+                                <rect key="frame" x="311" y="335" width="100" height="100"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falcon" translatesAutoresizingMaskIntoConstraints="NO" id="6Cw-ea-8R9">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="StarWarsLogo" translatesAutoresizingMaskIntoConstraints="NO" id="KFe-cj-g2e">
+                                <rect key="frame" x="20" y="64" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Click Any Where to Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0s-lw-cUl">
+                                <rect key="frame" x="129" y="476" width="182" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Nu9-Kk-5Oo" firstAttribute="leading" secondItem="yaI-YB-FTC" secondAttribute="trailing" constant="30" id="8uC-kh-Ay8"/>
+                            <constraint firstItem="KFe-cj-g2e" firstAttribute="centerX" secondItem="Vqe-Cx-jFv" secondAttribute="centerX" id="91p-YR-N1O"/>
+                            <constraint firstItem="Nu9-Kk-5Oo" firstAttribute="centerY" secondItem="Vqe-Cx-jFv" secondAttribute="centerY" id="Jon-Cr-Prt"/>
+                            <constraint firstItem="Pbu-Ce-9ok" firstAttribute="centerY" secondItem="Vqe-Cx-jFv" secondAttribute="centerY" id="Js8-1d-n4c"/>
+                            <constraint firstItem="t0s-lw-cUl" firstAttribute="centerX" secondItem="Vqe-Cx-jFv" secondAttribute="centerX" id="T0c-Rx-QZq"/>
+                            <constraint firstItem="yaI-YB-FTC" firstAttribute="centerY" secondItem="Vqe-Cx-jFv" secondAttribute="centerY" id="U19-pt-z5M"/>
+                            <constraint firstItem="Pbu-Ce-9ok" firstAttribute="leading" secondItem="Nu9-Kk-5Oo" secondAttribute="trailing" constant="30" id="cy8-DC-TwM"/>
+                            <constraint firstItem="Nu9-Kk-5Oo" firstAttribute="centerX" secondItem="Vqe-Cx-jFv" secondAttribute="centerX" id="lwW-fj-RsB"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="UZG-CY-WuN" appends="YES" id="K9P-qM-GVN"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="image1" destination="Qfl-hq-Mti" id="kFw-Hh-dhJ"/>
+                        <outlet property="image2" destination="CNw-l1-bUz" id="HDx-eO-4v2"/>
+                        <outlet property="image3" destination="6Cw-ea-8R9" id="IaE-Yq-cei"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u2v-x3-06K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="UZG-CY-WuN">
+                    <connections>
+                        <action selector="spinWheel:" destination="Gf1-AE-Ex5" id="c91-Iy-dY3"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="783" y="-680"/>
+        </scene>
+        <!--Episode1-->
+        <scene sceneID="Mxp-Vr-ZkI">
+            <objects>
+                <viewController id="dLz-Vv-FhQ" customClass="Episode1" customModule="Star_Wars_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rg7-Eg-z7c"/>
+                        <viewControllerLayoutGuide type="bottom" id="CxH-LG-W3c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bwO-De-Ls1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C3PO" translatesAutoresizingMaskIntoConstraints="NO" id="sxD-MP-MB2">
+                                <rect key="frame" x="139" y="248" width="100" height="120"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RebelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mhn-A8-Wbb">
+                                <rect key="frame" x="61" y="313" width="60" height="58"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmpireLogo" translatesAutoresizingMaskIntoConstraints="NO" id="6Cc-EI-vmc">
+                                <rect key="frame" x="259" y="313" width="60" height="58"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QPZ-9p-0A0">
+                                <rect key="frame" x="24" y="401" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DRF-1k-Lu3">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Qui Gon Jinn- Jedi Master             Obi Wan Kenobi- Jedi Knight Annakin Skywalker- Young Boy  C3PO- Droid R2D2- Droid        Jar Jar Binks- Otolla Gungan Padme Amidala- Queen of Naboo</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RFn-Po-ppf">
+                                <rect key="frame" x="227" y="401" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Darth Maul- Sith Lord                           Darth Sidious- Sith Lord" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H1J-mb-NlW">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0lZ-3s-v9E">
+                                <rect key="frame" x="139" y="64" width="240" height="184"/>
+                                <string key="text">Obi-Wan Kenobi is a young apprentice Jedi knight under the tutelage of Qui-Gon Jinn; Anakin Skywalker, who will later father Luke Skywalker and become known as Darth Vader, is just a 9-year-old boy. When the Trade Federation cuts off all routes to the planet Naboo, Qui-Gon and Obi-Wan are assigned to settle the matter.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Episode1Poster" translatesAutoresizingMaskIntoConstraints="NO" id="dFq-oD-urn">
+                                <rect key="frame" x="6" y="72" width="130" height="210"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Republic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fj8-YO-zmX">
+                                <rect key="frame" x="41" y="372" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trade Federation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbu-eT-NkV">
+                                <rect key="frame" x="224" y="372" width="131" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yan-P2-Qtu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1420" y="-294"/>
+        </scene>
+        <!--Episode2-->
+        <scene sceneID="kza-aR-Xmy">
+            <objects>
+                <viewController id="ojD-4J-bn3" customClass="Episode2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QXx-dV-L54"/>
+                        <viewControllerLayoutGuide type="bottom" id="urJ-l0-xML"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9es-Lu-eVY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CloneHelmet" translatesAutoresizingMaskIntoConstraints="NO" id="NrJ-Jt-tbF">
+                                <rect key="frame" x="151" y="306" width="79" height="91"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Episode2Poster" translatesAutoresizingMaskIntoConstraints="NO" id="LsB-kZ-XRb">
+                                <rect key="frame" x="6" y="82" width="130" height="210"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CFf-kp-4mP">
+                                <rect key="frame" x="135" y="64" width="240" height="234"/>
+                                <string key="text">Set ten years after the events of The Phantom Menace, the Republic continues to be mired in strife and chaos. A separatist movement encompassing hundreds of planets and powerful corporate alliances poses new threats to the galaxy that even the Jedi cannot stem. These moves, long planned by an as yet unrevealed and powerful force, lead to the beginning of the Clone Wars and the beginning of the end of the Republic.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RebelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="7N3-Hm-H8q">
+                                <rect key="frame" x="81" y="340" width="60" height="58"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmpireLogo" translatesAutoresizingMaskIntoConstraints="NO" id="eUG-mr-ol5">
+                                <rect key="frame" x="238" y="340" width="60" height="58"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BJo-VI-QfP">
+                                <rect key="frame" x="44" y="428" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="q2v-Hi-wgQ">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Mace Windu- Jedi Master             Obi Wan Kenobi- Jedi Master Yoda- Jedi Master                      Annakin Skywalker- Jedi Knight                            Padme Amidala- Naboo Senator C3PO- Droid R2D2- Droid</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gON-o1-ofc">
+                                <rect key="frame" x="206" y="428" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiW-of-5qp">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Count Duku- Sith Lord                           Supreme Chancellor Palpetine- Darth Sidious                         Jenga Fett- Bounty Hunter</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Republic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ur-al-BgD">
+                                <rect key="frame" x="61" y="399" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Separatists" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H10-QX-eNh">
+                                <rect key="frame" x="226" y="399" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yx7-Z0-ljX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1509.5" y="379.5"/>
+        </scene>
+        <!--Episode7-->
+        <scene sceneID="ayz-xg-ire">
+            <objects>
+                <viewController id="PYg-vW-TUV" customClass="Episode7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FYm-Iw-BfG"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Bm-u5-QAB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l7P-IX-Agd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Episode7Poster" translatesAutoresizingMaskIntoConstraints="NO" id="hs9-UP-icl">
+                                <rect key="frame" x="99" y="72" width="177" height="287"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qm6-ki-2t9">
+                                <rect key="frame" x="67" y="362" width="240" height="128"/>
+                                <string key="text">Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KyloRehn" translatesAutoresizingMaskIntoConstraints="NO" id="zvR-g6-yhN">
+                                <rect key="frame" x="14" y="184" width="77" height="77"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BB8" translatesAutoresizingMaskIntoConstraints="NO" id="SBG-c2-421">
+                                <rect key="frame" x="291" y="184" width="77" height="77"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RebelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="VoR-Yq-Bug">
+                                <rect key="frame" x="81" y="456" width="60" height="58"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmpireLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hRT-0a-Mv6">
+                                <rect key="frame" x="238" y="456" width="60" height="58"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RRP-sL-VEb">
+                                <rect key="frame" x="44" y="544" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jj6-uc-McO">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Han Solo Chewbacca- Wookie                   Fin                           Rey                          BB8- Droid     Poe Dameron</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Light Side" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obn-re-jDg">
+                                <rect key="frame" x="73" y="515" width="77" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rg7-cd-4Yy">
+                                <rect key="frame" x="206" y="544" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Kylo Rehn- Sith Lord" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sBV-lW-axb">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dark Side" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAF-Es-mCf">
+                                <rect key="frame" x="231" y="515" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tRd-ac-jfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102.5" y="1230.5"/>
+        </scene>
+        <!--Episode3-->
+        <scene sceneID="4Xy-dq-YBv">
+            <objects>
+                <viewController id="5el-B5-KhJ" customClass="Episode3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Rg-l5-GgV"/>
+                        <viewControllerLayoutGuide type="bottom" id="58V-WX-Tz8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZzV-gU-gDq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Episode3Poster" translatesAutoresizingMaskIntoConstraints="NO" id="Duk-fl-ViX">
+                                <rect key="frame" x="4" y="73" width="130" height="210"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RebelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="XIX-49-BIB">
+                                <rect key="frame" x="57" y="302" width="60" height="58"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EmpireLogo" translatesAutoresizingMaskIntoConstraints="NO" id="v8T-bV-7cR">
+                                <rect key="frame" x="214" y="302" width="60" height="58"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sX4-iJ-e2h">
+                                <rect key="frame" x="20" y="390" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0Wu-Uk-7fS">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Mace Windu- Jedi Master             Obi Wan Kenobi- Jedi Master Yoda- Jedi Master     Padme- Annakin Skywalker's Wife C3PO- Droid R2D2- Droid Chewbacca- Wookie</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Republic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbn-yG-GfS">
+                                <rect key="frame" x="37" y="361" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z60-fO-yQT">
+                                <rect key="frame" x="182" y="390" width="125" height="257"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N4J-Yc-PA1">
+                                        <rect key="frame" x="0.0" y="-9" width="124" height="827"/>
+                                        <string key="text">Count Duku- Sith Lord                           The Emperor -  Darth Sidious Annakin Skywalker- Darth Vader                     General Grievous- Commander of the Droid Army</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cqp-da-mAT">
+                                <rect key="frame" x="135" y="57" width="240" height="250"/>
+                                <string key="text">It has been three years since the Clone Wars began. Jedi Master Obi-Wan Kenobi and Jedi Knight Anakin Skywalker rescue Chancellor Palpatine from General Grievous, the commander of the droid armies, but Grievous escapes. Suspicions are raised within the Jedi Council concerning Chancellor Palpatine, with whom Anakin has formed a bond. Asked to spy on the chancellor, and full of bitterness toward the Jedi Council, Anakin embraces the Dark Side.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Separatists" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wa8-Jm-EVz">
+                                <rect key="frame" x="202" y="361" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oTn-uU-e5E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1015.5" y="1106.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3Fs-bc-EqW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J4u-k0-NQS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="i14-xt-ykX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Nue-WB-1ah"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OBC-Dw-fY7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="-643"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BB8" width="627" height="588"/>
+        <image name="C3PO" width="368" height="434"/>
+        <image name="CloneHelmet" width="821" height="1023"/>
+        <image name="Death-Star" width="128" height="128"/>
+        <image name="EmpireLogo" width="1024" height="1024"/>
+        <image name="Episode1Poster" width="480" height="722"/>
+        <image name="Episode2Poster" width="480" height="727"/>
+        <image name="Episode3Poster" width="480" height="711"/>
+        <image name="Episode4Poster" width="480" height="756"/>
+        <image name="Episode5Poster" width="1200" height="1850"/>
+        <image name="Episode6Poster" width="300" height="472"/>
+        <image name="Episode7Poster" width="1024" height="1517"/>
+        <image name="Falcon" width="372" height="486"/>
+        <image name="KyloRehn" width="427" height="423"/>
+        <image name="RebelLogo" width="637" height="585"/>
+        <image name="StarWarsLogo" width="289" height="174"/>
+        <image name="lightsabers-clash" width="1920" height="1080"/>
+    </resources>
 </document>

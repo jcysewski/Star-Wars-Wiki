@@ -14,6 +14,14 @@
 		3F9FE6851BFE38CF0045CD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FE6831BFE38CF0045CD7C /* LaunchScreen.storyboard */; };
 		3F9FE6901BFE38CF0045CD7C /* Star_Wars_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE68F1BFE38CF0045CD7C /* Star_Wars_AppTests.swift */; };
 		3F9FE69B1BFE38CF0045CD7C /* Star_Wars_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE69A1BFE38CF0045CD7C /* Star_Wars_AppUITests.swift */; };
+		3FE0E2961C0F5BAC00F934A7 /* Episode1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E2951C0F5BAC00F934A7 /* Episode1.swift */; settings = {ASSET_TAGS = (); }; };
+		3FE0E2981C0F5F6100F934A7 /* Episode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E2971C0F5F6100F934A7 /* Episode2.swift */; settings = {ASSET_TAGS = (); }; };
+		3FE0E29A1C0F5F7B00F934A7 /* Episode3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E2991C0F5F7B00F934A7 /* Episode3.swift */; settings = {ASSET_TAGS = (); }; };
+		3FE0E29C1C0F5F9300F934A7 /* Episode4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E29B1C0F5F9300F934A7 /* Episode4.swift */; settings = {ASSET_TAGS = (); }; };
+		3FE0E29E1C0F5FA200F934A7 /* Episode5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E29D1C0F5FA200F934A7 /* Episode5.swift */; settings = {ASSET_TAGS = (); }; };
+		3FE0E2A01C0F5FB200F934A7 /* Episode6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E29F1C0F5FB200F934A7 /* Episode6.swift */; settings = {ASSET_TAGS = (); }; };
+		3FE0E2A21C0F5FC100F934A7 /* Episode7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E2A11C0F5FC100F934A7 /* Episode7.swift */; settings = {ASSET_TAGS = (); }; };
+		3FE0E2A41C10A9B100F934A7 /* SlotMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0E2A31C10A9B100F934A7 /* SlotMachine.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		3F9FE6961BFE38CF0045CD7C /* Star Wars AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star Wars AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9FE69A1BFE38CF0045CD7C /* Star_Wars_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Wars_AppUITests.swift; sourceTree = "<group>"; };
 		3F9FE69C1BFE38CF0045CD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE0E2951C0F5BAC00F934A7 /* Episode1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Episode1.swift; path = ../Episode1.swift; sourceTree = "<group>"; };
+		3FE0E2971C0F5F6100F934A7 /* Episode2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode2.swift; sourceTree = "<group>"; };
+		3FE0E2991C0F5F7B00F934A7 /* Episode3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode3.swift; sourceTree = "<group>"; };
+		3FE0E29B1C0F5F9300F934A7 /* Episode4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode4.swift; sourceTree = "<group>"; };
+		3FE0E29D1C0F5FA200F934A7 /* Episode5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode5.swift; sourceTree = "<group>"; };
+		3FE0E29F1C0F5FB200F934A7 /* Episode6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode6.swift; sourceTree = "<group>"; };
+		3FE0E2A11C0F5FC100F934A7 /* Episode7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode7.swift; sourceTree = "<group>"; };
+		3FE0E2A31C10A9B100F934A7 /* SlotMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,14 @@
 			children = (
 				3F9FE67A1BFE38CF0045CD7C /* AppDelegate.swift */,
 				3F9FE67C1BFE38CF0045CD7C /* ViewController.swift */,
+				3FE0E2951C0F5BAC00F934A7 /* Episode1.swift */,
+				3FE0E2971C0F5F6100F934A7 /* Episode2.swift */,
+				3FE0E2991C0F5F7B00F934A7 /* Episode3.swift */,
+				3FE0E29B1C0F5F9300F934A7 /* Episode4.swift */,
+				3FE0E29D1C0F5FA200F934A7 /* Episode5.swift */,
+				3FE0E29F1C0F5FB200F934A7 /* Episode6.swift */,
+				3FE0E2A11C0F5FC100F934A7 /* Episode7.swift */,
+				3FE0E2A31C10A9B100F934A7 /* SlotMachine.swift */,
 				3F9FE67E1BFE38CF0045CD7C /* Main.storyboard */,
 				3F9FE6811BFE38CF0045CD7C /* Assets.xcassets */,
 				3F9FE6831BFE38CF0045CD7C /* LaunchScreen.storyboard */,
@@ -255,7 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE0E2A01C0F5FB200F934A7 /* Episode6.swift in Sources */,
+				3FE0E2A21C0F5FC100F934A7 /* Episode7.swift in Sources */,
+				3FE0E2981C0F5F6100F934A7 /* Episode2.swift in Sources */,
 				3F9FE67D1BFE38CF0045CD7C /* ViewController.swift in Sources */,
+				3FE0E29A1C0F5F7B00F934A7 /* Episode3.swift in Sources */,
+				3FE0E2961C0F5BAC00F934A7 /* Episode1.swift in Sources */,
+				3FE0E29C1C0F5F9300F934A7 /* Episode4.swift in Sources */,
+				3FE0E2A41C10A9B100F934A7 /* SlotMachine.swift in Sources */,
+				3FE0E29E1C0F5FA200F934A7 /* Episode5.swift in Sources */,
 				3F9FE67B1BFE38CF0045CD7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +515,7 @@
 				3F9FE6A11BFE38CF0045CD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F9FE6A21BFE38CF0045CD7C /* Build configuration list for PBXNativeTarget "Star Wars AppTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +524,7 @@
 				3F9FE6A41BFE38CF0045CD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F9FE6A51BFE38CF0045CD7C /* Build configuration list for PBXNativeTarget "Star Wars AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +533,7 @@
 				3F9FE6A71BFE38CF0045CD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
